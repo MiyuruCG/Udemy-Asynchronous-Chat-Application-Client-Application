@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Udemy-Asynchronous-Chat-Application-Server-Programme\UDP Asynchronous Chat\UDP Asynchronous Chat.csproj">
+      <Project>{5ff31bd1-bc27-4c5a-8fbb-0b3f2df9ab8a}</Project>
+      <Name>UDP Asynchronous Chat</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
