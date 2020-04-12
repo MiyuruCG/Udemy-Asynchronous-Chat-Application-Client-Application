@@ -16,5 +16,10 @@ namespace UDP_Chat_Client_Form
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
