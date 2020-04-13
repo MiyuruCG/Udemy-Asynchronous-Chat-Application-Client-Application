@@ -97,7 +97,7 @@
             // 
             this.btnSendBroadcast.Location = new System.Drawing.Point(1217, 71);
             this.btnSendBroadcast.Name = "btnSendBroadcast";
-            this.btnSendBroadcast.Size = new System.Drawing.Size(161, 60);
+            this.btnSendBroadcast.Size = new System.Drawing.Size(161, 81);
             this.btnSendBroadcast.TabIndex = 6;
             this.btnSendBroadcast.Text = "&Send Broadcast";
             this.btnSendBroadcast.UseVisualStyleBackColor = true;
@@ -123,7 +123,7 @@
             // 
             // btnSendMessage
             // 
-            this.btnSendMessage.Location = new System.Drawing.Point(1220, 153);
+            this.btnSendMessage.Location = new System.Drawing.Point(1221, 179);
             this.btnSendMessage.Name = "btnSendMessage";
             this.btnSendMessage.Size = new System.Drawing.Size(157, 70);
             this.btnSendMessage.TabIndex = 9;
