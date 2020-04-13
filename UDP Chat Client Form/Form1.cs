@@ -30,5 +30,10 @@ namespace UDP_Chat_Client_Form
             }
             mChatClient.SendBroadcast(tbBroadcatText.Text);
         }
+
+        private void btnSendMessage_Click(object sender, EventArgs e)
+        {
+            mChatClient.SendMessageToKnownServer(tbMessage.Text);
+        }
     }
 }
